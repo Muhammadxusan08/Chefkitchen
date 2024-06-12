@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.active {
+    color: #B0CC0D;
+    border-bottom: 1.5px solid #B0CC0D;
+}
+
+.hover{
+  transition: all 0.3s;
+}
+
+.hover:hover{
+      box-shadow: 0px 0px 26px 9px #8EC03882;
+    cursor: pointer;
+}
